@@ -5,6 +5,16 @@
     --secundary-color: #373b69;
 }
 
+#navId{
+    background-color: #00152a;
+}
+
+#id{
+    background-color: red;
+}
+
+
+
 *{
     box-sizing: border-box;
 }
@@ -15,13 +25,13 @@ body{
     margin: 0;
 }
 
-header{
+/*header{
     padding: 1rem;
     display: flex;
     justify-content: space-between;
     background-color: var(--secundary-color);
 
-}
+}*/
 
 header h2{
     color: #fff;
