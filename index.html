@@ -53,10 +53,7 @@
                         </li>
                         
                         <li class="nav-item">
-                            <button type="button" class="btn btn-primary btn-registro">Registrarse</button>
-                        </li>
-                        <li class="nav-item">
-                            <button type="button" class="btn btn-primary">Iniciar sesión</button>
+                            <a class="nav-link text-light" href="/login.html">Iniciar sesión</a>
                          </li>
                         
                           
@@ -65,7 +62,7 @@
                   
                 </div>
             </div>
-            <a class="nav-link text-light" href="#">
+            <a class="nav-link text-light button-cart">
                 <img src="./img/carrito.png" alt="carrito-de-compras" class="logo-carrito">
             </a>
         </nav>
@@ -264,6 +261,70 @@
     <!-- Copyright -->
     </footer>
     <!-- Footer -->
+  
+    <!-- Modal -->
+    <div
+    class="modal fade "
+    id="myModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+    >
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Carrito de compra</h5>
+            <button
+            type="button"
+            class="btn-close"
+            data-mdb-dismiss="modal"
+            aria-label="Close"
+            ></button>
+        </div>
+        <form action="" name="productModal">
+           <div class="modal-body bg-ligth">
+               <!-- Producto -->
+               
+                  <div class="card">
+                    <div class="card-body">
+                      <table class="table table-hover">
+                        <thead>
+                          <tr class="table-warning">
+                            <th>#</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th>Acción</th>
+                          </tr>
+                        </thead>
+                        <tbody class="tbody">
+
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="card-footer d-flex">
+                      <div class="col">
+                        <a href="" class="btn btn-success">Imprimir recibo</a>
+                      </div>
+                      <div class="col d-flex justify-content-end">
+                        <h3 class="itemCartTotal">Total: 0</h3>
+                      </div>
+                    </div>
+                  </div>
+               
+            </div>
+        </form>
+        
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+            Cerrar
+            </button>
+            <button type="button" class="btn btn-primary">Realizar compra</button>
+        </div>
+      </div>
+    </div>
+    </div>
+
 
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./script/script.js" type="module"></script>

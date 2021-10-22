@@ -14,11 +14,13 @@ function showMovies(hero) {
         movieEl.innerHTML = `
             <img src="${hero.image}" alt="">
             <div class="overview ">
-               ${hero.first_appearance}
+               <h3 class="title">${hero.first_appearance}</h3>
+               <br>   
+               <h3 class="precio"><strong>${hero.precio}</strong></h3>
                <button  type="button"
                data-mdb-toggle="modal"
                data-mdb-target="#exampleModal" class="btn btn-info col-12 mt-1">Ver más</button>
-               <button class="btn btn-primary col-12 mt-2">Añadir al carrito</button>
+               <button class="btn btn-primary col-12 mt-2 button">Añadir al carrito</button>
             </div>
             <!-- Modal -->
             <div
@@ -53,4 +55,99 @@ function showMovies(hero) {
     });
 }
 
+let cart = []
+const clickButtonProd = document.querySelectorAll('.button')
+const clickButton = document.querySelector('.button-cart');
+const tbody = document.querySelector('.tbody');
+
+const carrito = () => {
+    const myModal = new mdb.Modal(document.getElementById('myModal'))
+    myModal.show()
+}
+
+const addToItemCart = ( element ) => {
+    const button = element.target
+    const item = button.closest('.movie');
+    const itemTitle = item.querySelector('.title').textContent;
+    const itemPrecio = item.querySelector('.precio').textContent;
+
+    const product = {
+        title: itemTitle,
+        precio: itemPrecio,
+        cantidad: 1
+    }
+
+    addItemCart( product );
+}
+
+const addItemCart = ( newProduct ) => {
+    const inputElement = tbody.getElementsByClassName('input__element')
+    for( let i = 0; i < cart.length; i++ ) {
+        if(cart[i].title.trim() === newProduct.title.trim())
+        {
+            cart[i].cantidad++;
+            const inputValue = inputElement[i]
+            inputValue.value++;
+            console.log(cart)
+            carritoTotal()
+            return null;
+        }
+    }
+    cart.push( newProduct );
+    renderCarrito()
+}
+
+const renderCarrito = () => {
+
+    tbody.innerHTML = ''
+    cart.map( item => {
+        const tr = document.createElement('tr');
+        tr.classList.add('ItemCarrito');
+        const contenido = 
+        `
+        <th scope="row">1</th>
+        <td class="table_productos"><h6 class="title">${item.title}</h6></td>
+        <td class="table_precio">${item.precio}</td>
+        <td class="table_cantidad">
+        <input type="number" min="1" value=${item.cantidad} class="input__element">
+        </td>
+        <td><button class="btn btn-danger delete">X</button></td>
+        `
+        tr.innerHTML = contenido;
+        tbody.append(tr);
+
+        tr.querySelector('.delete').addEventListener('click', removeItemCart)
+    })
+    carritoTotal()
+}
+
+const carritoTotal = () => {
+    let total = 0;
+    const itemCartTotal = document.querySelector('.itemCartTotal')
+    cart.forEach( (item) => {
+        const precio = Number(item.precio)
+        total += precio*item.cantidad;
+    })
+
+    itemCartTotal.innerHTML = `Total $${total}` 
+}
+
+const removeItemCart = (element) => {
+    const buttonDelete = element.target
+    const tr = buttonDelete.closest('.ItemCarrito');
+    const title = tr.querySelector('.title').textContent;
+    for( let i = 0; i < cart.length; i++ ) {
+        if(cart[i].title.trim() === title.trim()){
+            cart.splice(i, 1);
+        }
+    }
+    tr.remove();
+    carritoTotal();
+}
+
+
+
+clickButton.addEventListener('click', carrito);
+clickButtonProd.forEach(btn => {
+    btn.addEventListener('click', addToItemCart)});
 
