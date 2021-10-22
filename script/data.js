@@ -32,8 +32,8 @@ export const data = [
         "superhero": "Green Lantern",
         "publisher": "DC Comics",
         "alter_ego": "Alan Scott",
-        "first_appearance": "All-American Comics #16",
-        "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576709/img_heroes/dc-green_l6sgdq.jpg"
+        "first_appearance": "Celular Xiaomi Poco x3",
+        "image": "https://exitocol.vtexassets.com/arquivos/ids/8748048-500-auto?v=637605308615100000&width=500&height=auto&aspect=true"
       },
       {
         "id": 5,
@@ -41,8 +41,8 @@ export const data = [
         "superhero": "Green Arrow",
         "publisher": "DC Comics",
         "alter_ego": "Oliver Queen",
-        "first_appearance": "More Fun Comics #73",
-        "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576715/img_heroes/dc-arrow_rbgcrx.jpg"
+        "first_appearance": "Computador Portátil Lenovo 14 Pulgadas",
+        "image": "https://exitocol.vtexassets.com/arquivos/ids/10387842-800-auto?v=637690484963400000&width=800&height=auto&aspect=true"
       },
       {
         "id": 6,
@@ -50,8 +50,8 @@ export const data = [
         "superhero": "Wonder Woman",
         "publisher": "DC Comics",
         "alter_ego": "Princess Diana",
-        "first_appearance": "All Star Comics #8",
-        "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576715/img_heroes/dc-wonder_rdok3n.jpg"
+        "first_appearance": "Televisor LG 50 Pulgadas Led UHD",
+        "image": "https://exitocol.vtexassets.com/arquivos/ids/10045526-500-auto?v=637674363541400000&width=500&height=auto&aspect=true"
       },
       {
         "id": 7,
@@ -59,8 +59,8 @@ export const data = [
         "superhero": "Martian Manhunter",
         "publisher": "DC Comics",
         "alter_ego": "J\"onn J\"onzz",
-        "first_appearance": "Detective Comics #225",
-        "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576709/img_heroes/dc-martian_p02lhj.jpg"
+        "first_appearance": "Celular Xiaomi Poco X3 Pro",
+        "image": "https://exitocol.vtexassets.com/arquivos/ids/8748055-500-auto?v=637605308749930000&width=500&height=auto&aspect=true"
       },
       {
         "id": 8,
@@ -68,8 +68,8 @@ export const data = [
         "superhero": "Robin/Nightwing",
         "publisher": "DC Comics",
         "alter_ego": "Dick Grayson",
-        "first_appearance": "Detective Comics #38",
-        "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576708/img_heroes/dc-robin_asdzak.jpg"
+        "first_appearance": "Computador Portátil 2 En 1 HP",
+        "image": "https://exitocol.vtexassets.com/arquivos/ids/7181674-500-auto?v=637526392444800000&width=500&height=auto&aspect=true"
       },
       {
         "id": 9,
@@ -77,8 +77,8 @@ export const data = [
         "superhero": "Blue Beetle",
         "publisher": "DC Comics",
         "alter_ego": "Dan Garret",
-        "first_appearance": "Mystery Men Comics #1",
-        "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576708/img_heroes/dc-blue_tk2ccp.jpg"
+        "first_appearance": "Televisor Samsung Neo QLED 85 Pulgadas",
+        "image": "https://exitocol.vtexassets.com/arquivos/ids/10525812-500-auto?v=637699083066530000&width=500&height=auto&aspect=true"
       },
       {
         "id": 10,
@@ -86,8 +86,8 @@ export const data = [
         "superhero": "Black Canary",
         "publisher": "DC Comics",
         "alter_ego": "Dinah Drake",
-        "first_appearance": "Flash Comics #86",
-        "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576708/img_heroes/dc-black_cjfpa6.jpg"
+        "first_appearance": "Motorola Snapdragon",
+        "image": "https://exitocol.vtexassets.com/arquivos/ids/9840054-500-auto?v=637667168858000000&width=500&height=auto&aspect=true"
       },
       {
         "id": 11,
@@ -95,8 +95,8 @@ export const data = [
         "superhero": "Spider Man",
         "publisher": "Marvel Comics",
         "alter_ego": "Peter Parker",
-        "first_appearance": "Amazing Fantasy #15",
-        "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576713/img_heroes/marvel-spider_vutgrj.jpg"
+        "first_appearance": "Computador HP All-In-One",
+        "image": "https://exitocol.vtexassets.com/arquivos/ids/9527559-500-auto?v=637660240891300000&width=500&height=auto&aspect=true"
       },
       {
         "id": 12,
@@ -104,8 +104,8 @@ export const data = [
         "superhero": "Captain America",
         "publisher": "Marvel Comics",
         "alter_ego": "Steve Rogers",
-        "first_appearance": "Captain America Comics #1",
-        "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576709/img_heroes/marvel-captain_aghcmc.jpg"
+        "first_appearance": "Televisor Samsung 50 Pulgadas",
+        "image": "https://exitocol.vtexassets.com/arquivos/ids/5675142-500-auto?v=637474428880130000&width=500&height=auto&aspect=true"
       },
       {
         "id": 13,
@@ -113,8 +113,8 @@ export const data = [
         "superhero": "Iron Man",
         "publisher": "Marvel Comics",
         "alter_ego": "Tony Stark",
-        "first_appearance": "Tales of Suspense #39",
-        "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576712/img_heroes/marvel-iron_mrztum.jpg"
+        "first_appearance": "Celular Iphone 12 Pro Max",
+        "image": "https://exitocol.vtexassets.com/arquivos/ids/7964559-500-auto?v=637589340467630000&width=500&height=auto&aspect=true"
       },
       {
         "id": 14,
@@ -122,8 +122,8 @@ export const data = [
         "superhero": "Thor",
         "publisher": "Marvel Comics",
         "alter_ego": "Thor Odinson",
-        "first_appearance": "Journey into Myster #83",
-        "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576715/img_heroes/marvel-thor_lgowyw.jpg"
+        "first_appearance": "Computador Portátil HP Pavilion",
+        "image": "https://exitocol.vtexassets.com/arquivos/ids/9207942-500-auto?v=637637010996100000&width=500&height=auto&aspect=true"
       },
       {
         "id": 15,
@@ -131,8 +131,8 @@ export const data = [
         "superhero": "Hulk",
         "publisher": "Marvel Comics",
         "alter_ego": "Bruce Banner",
-        "first_appearance": "The Incredible Hulk #1",
-        "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576715/img_heroes/marvel-hulk_ycp4ba.jpg"
+        "first_appearance": "Computador Portátil Asus",
+        "image": "https://exitocol.vtexassets.com/arquivos/ids/9206855-500-auto?v=637636944786300000&width=500&height=auto&aspect=true"
       },
       {
         "id": 16,
@@ -140,26 +140,9 @@ export const data = [
         "superhero": "Wolverine",
         "publisher": "Marvel Comics",
         "alter_ego": "James Howlett",
-        "first_appearance": "The Incredible Hulk #180",
-        "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576717/img_heroes/marvel-wolverine_pbo110.jpg"
-      },
-      {
-        "id": 17,
-        "name": "marvel-daredevil",
-        "superhero": "Daredevil",
-        "publisher": "Marvel Comics",
-        "alter_ego": "Matthew Michael Murdock",
-        "first_appearance": "Daredevil #1",
-        "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576711/img_heroes/marvel-daredevil_nhuml0.jpg"
-      },
-      {
-        "id": 18,
-        "name": "marvel-hawkeye",
-        "superhero": "Hawkeye",
-        "publisher": "Marvel Comics",
-        "alter_ego": "Clinton Francis Barton",
-        "first_appearance": "Tales of Suspense #57",
-        "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576712/img_heroes/marvel-hawkeye_xea2en.jpg"
-      },
+        "first_appearance": "Televisor LG 75 pulgadas",
+        "image": "https://exitocol.vtexassets.com/arquivos/ids/10045533-500-auto?v=637674363585430000&width=500&height=auto&aspect=true"
+      }
+      
       
 ]
