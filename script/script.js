@@ -20,8 +20,10 @@ function showMovies(hero) {
                 <span class="green">0.9</span>
             </div>
             <div class="overview">
-                <h3>overview</h3>
+            <a>Ver más</a> 
                ${hero.first_appearance}
+            
+               <button class="btn btn-primary">Añadir al carrito</button>
             </div>
         `
         main.appendChild(movieEl)
