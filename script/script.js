@@ -60,6 +60,9 @@ const clickButtonProd = document.querySelectorAll('.button')
 const clickButton = document.querySelector('.button-cart');
 const tbody = document.querySelector('.tbody');
 
+
+
+
 const carrito = () => {
     const myModal = new mdb.Modal(document.getElementById('myModal'))
     myModal.show()
@@ -117,6 +120,7 @@ const renderCarrito = () => {
         tbody.append(tr);
 
         tr.querySelector('.delete').addEventListener('click', removeItemCart)
+        tr.querySelector('.input__element').addEventListener('change', sumaCantidad)
     })
     carritoTotal()
 }
@@ -146,6 +150,19 @@ const removeItemCart = (element) => {
 }
 
 
+const sumaCantidad = (element) => {
+    const sumaInput = element.target
+    const tr = sumaInput.closest('.ItemCarrito')
+    const title = tr.querySelector('.title').textContent;
+    cart.forEach( item => {
+        if (item.title.trim() === title.trim()) {
+            sumaInput.value < 1 ? (sumaInput.value = 1) : sumaInput.value
+            item.cantidad = sumaInput.value;
+            carritoTotal()
+        }
+    } )
+    console.log(cart)
+}
 
 clickButton.addEventListener('click', carrito);
 clickButtonProd.forEach(btn => {

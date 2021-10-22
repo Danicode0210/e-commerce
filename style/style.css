@@ -149,7 +149,11 @@ margin-top: 0;
 }
 
 
-
+@media print {
+    .modal-body .card .card-body .table {
+        display: none;
+    }
+}
 
 
 
