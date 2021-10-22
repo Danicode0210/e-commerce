@@ -6,7 +6,7 @@ export const data = [
         "publisher": "Marvel Comics",
         "alter_ego": "Scott Summers",
         "first_appearance": "X-Men #1",
-        "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576711/img_heroes/marvel-cyclops_detkog.jpg"
+        "image": "https://www.alkosto.com/medias/192876065044-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wzNDc5MnxpbWFnZS9qcGVnfGltYWdlcy9oOTcvaGIyLzkwNjY4OTA1NTk1MTguanBnfGE3M2U5ZWMxMTcxNTY0YjcyYjUzOGU2MTUzMmViOTNiNTI2OWE1NDcxOTI3MDQyZGYxMDc5ODA1NmU1Y2MwMDc"
       },
       {
         "id": 2,
@@ -15,7 +15,7 @@ export const data = [
         "publisher": "DC Comics",
         "alter_ego": "Kal-El",
         "first_appearance": "Action Comics #1",
-        "image": "https://res.cloudinary.com/duzf4vfki/image/upload/v1627576709/img_heroes/dc-superman_ftmyta.jpg"
+        "image": "https://www.latercera.com/resizer/ByGUZcUT73RDkJpOevrAY6-z_aM=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/4QEXSUD65VCUNJWMSOPZQXXYQI.jpg"
       },
       {
         "id": 3,

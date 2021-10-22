@@ -25,36 +25,32 @@ body{
     margin: 0;
 }
 
-/*header{
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--secundary-color);
 
-}*/
-
+.img-logo{
+    min-width: 5em;
+}
 header h2{
     color: #fff;
 }
 
-.search{
-    background-color: transparent;
-    border: 2px solid  var(--primary-color);
-    border-radius:50px;
-    font-family: inherit;
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
-    color: #fff;
+.title-logo{
+    font-size: 25px;
 }
 
-.search::placeholder{
-    color:#7378c5;
+.subtitle-logo{
+    font-size: 13px;
+    margin-left: 20px;
 }
 
-.search:focus{
-    outline: none;
-    background-color: var(--primary-color);
+.btn-registro{
+    margin-right: 10px;
 }
+
+.logo-carrito{
+    max-width: 5em;
+}
+
+
 
 main{
     display: flex;
@@ -65,6 +61,7 @@ main{
 
 .movie{
     width: 300px;
+    height: 300px;
     margin: 1rem;
     background-color: var(--secundary-color);
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);

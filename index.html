@@ -16,7 +16,7 @@
 
 
 
-    <title>e-commerce</title>
+    <title>Point tecnologic</title>
 </head>
 
 <body>
@@ -25,21 +25,23 @@
         <nav id="navId" class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <div>
-                    <img class="col-md-3" src="./img/logo.png" />
+                    <img class="col-4 img-logo" src="./img/logo.png" />
                 </div>
-                <h1 class="text-light mt-2 mb-0 ">POINT TECNOLOGIC</h1>
-                    <h6>El mundo de la tecnología a tus pies</h6>
+                <div class="col-md-11">
+                    <h1 class="text-light mt-2 mb-0 title-logo ">POINT TECNOLOGIC</h1>
+                    <h6 class="text-white subtitle-logo"> El mundo de la tecnología a tus pies</h6>
+                </div>
             </div>
-            <div class="container-fluid">
+            <div class="container-fluid  m">
                 <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
                     data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <i class="fas fa-bars text-light"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarExample01">
-                    <ul class="navbar-nav me-auto mt-2 mb-0 mb-lg-2">
-                        <li class="nav-item active">
-                            <a class="nav-link text-light" aria-current="page" href="#">Home</a>
+                <div class="collapse navbar-collapse " id="navbarExample01">
+                    <ul class="navbar-nav  mt-2 mb-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Sobre nosotros</a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link text-light" href="#productos">Productos</a>
@@ -47,17 +49,23 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" href="#">Contactanos</a>
                         </li>
+                        
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">About</a>
+                            <button type="button" class="btn btn-primary btn-registro">Registrarse</button>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">
-                                <i class="fas fa-shopping-cart fa-2x mt-0 mb-0 mb-lg-0"></i>
-                            </a>
-                        </li>
+                            <button type="button" class="btn btn-primary">Iniciar sesión</button>
+                         </li>
+                        
+                          
+                        
                     </ul>
+                  
                 </div>
             </div>
+            <a class="nav-link text-light" href="#">
+                <img src="./img/carrito.png" alt="carrito-de-compras" class="logo-carrito">
+            </a>
         </nav>
         <!-- Navbar -->
 
@@ -121,7 +129,6 @@
 
     </header>
     <section id="productos">
-        <h2>Productos</h2>
         <main id="main"></main>
 
     </section>
